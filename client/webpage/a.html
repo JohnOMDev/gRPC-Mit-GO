@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</header>
+
+<body>
+    <div id="view">
+        <button v-on:click="readData()">read data</button>
+        <div v-for="item in eledata">
+            {{item.time}}:{{item.eleUsage}}
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var view = new Vue({
+        el: "#view",
+        data() {
+            return {
+                eledata: [],
+            }
+        },
+        methods: {
+            readData: function() {
+                let _this = this
+                axios.get("/").then(resp => {
+                    if (resp.data) {
+                        _this.eledata = resp.data.Data
+                    }
+                })
+            }
+        }
+    })
+</script>
+
+</html>
