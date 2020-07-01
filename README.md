@@ -7,8 +7,8 @@ A microservice project that uses gRPC API to request and get response from the s
 ### Project Tasks
 
 #####   The project is Language-independent gRPC-based microservice:
-###### Client Python
-###### Sever- Python
+###### Client Goland
+###### Sever- Goland
 * Create a gRPC server (in your preferred language) that serves the time-based electricity consumption data found in the attached file: meterusage.csv.
 * Use whatever tool you prefer to create an http server that will request the data from the gRPC server and deliver the consumption data as JSON. 
 *  Create a single page html document that requests the JSON from the http server and displays it. Please supply a link to your work in a public repository and a short README with a description of what you did."
