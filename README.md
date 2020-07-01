@@ -13,13 +13,6 @@ A microservice project that uses gRPC API to request and get response from the s
 * Use whatever tool you prefer to create an http server that will request the data from the gRPC server and deliver the consumption data as JSON. 
 *  Create a single page html document that requests the JSON from the http server and displays it. Please supply a link to your work in a public repository and a short README with a description of what you did."
 
-![pasted image 0](https://user-images.githubusercontent.com/50584494/85916907-6c7bb900-b855-11ea-9c47-6e9fb087d305.png)
-
-## Project Implementation
-
-
-![projectflow](https://user-images.githubusercontent.com/50584494/85916921-a056de80-b855-11ea-8bfd-8cdd83ba2b26.PNG)
-
 ## Implementation code directory
 
 change the code struct：
