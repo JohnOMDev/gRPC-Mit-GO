@@ -3,24 +3,7 @@
 ## Implementation code directory
 
 change the code struct：
-├─client
-│ │ go.mod
-│ │ go.sum
-│ │ main.go
-│ │
-│ └─webpage
-│ a.html
-│
-├─pb
-│ go.mod
-│ project.pb.go
-│
-└─server
-gen.go
-go.mod
-go.sum
-main.go
-Meterusage.csv
+![image](https://user-images.githubusercontent.com/50584494/86209089-13bc6100-bb72-11ea-8cb0-41f4416a5e07.png)
 
 
 ####  Run Server.
